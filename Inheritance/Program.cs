@@ -11,7 +11,7 @@ namespace Inheritance
         static void Main(string[] args)
         {
             Animal animal = new Animal("Animal", true, true, 5, 5);
-            Dog dog = new Dog("Yorkie", 8, 20, 2, 4, 1, 20, "long silky");
+            Dog dog = new Dog("Golden Retriever", 8, 20, 2, 4, 1, 20, "long silky");
 
             animal.Eat();
             dog.Eat();

@@ -14,10 +14,23 @@ namespace Inheritance
         private int size;
         private int weight;
 
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+
+            set
+            {
+                name = value;
+            }
+        }
+
         // constructor
         public Animal(String name, bool brain, bool body, int size, int weight)
         {
-            this.name = name;
+            this.Name = name;
             this.brain = brain;
             this.body = body;
             this.size = size;
